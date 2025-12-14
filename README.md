@@ -57,15 +57,24 @@ Specific objectives include:
 ## 📂 Project Structure
 
 ```
-turf-management-system/
+Turf-Management-System/
+├── src/
+│   ├── __init__.py
+│   ├── main.py          # Entry point of the application
+│   ├── db.py            # MySQL database connection logic
+│   ├── admin.py         # Admin-related operations
+│   ├── user.py          # User management functions
+│   └── booking.py       # Turf booking and availability logic
 │
-├── admin.py        # Admin-related operations
-├── user.py         # User authentication and actions
-├── booking.py      # Booking logic and validations
-├── db.py           # Database connection
-├── main.py         # Application entry point
-├── schema.sql      # MySQL database schema
-└── README.md
+├── sql/
+│   ├── schema.sql       # Database schema (tables & constraints)
+│   ├── insert_data.sql  # Sample INSERT queries
+│   └── queries.sql      # Business/analysis SQL queries
+│
+├── README.md
+├── .gitignore
+└── LICENSE
+
 ```
 
 ---
@@ -128,4 +137,6 @@ python main.py
 
 ## 📄 License
 
-This project is open for learning.
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute this project with proper attribution.
+
