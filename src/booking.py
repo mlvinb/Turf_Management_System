@@ -1,7 +1,7 @@
 # --------------------- Connections ---------------------
-from db import connect_db
+from .db import connect_db
 from datetime import datetime
-from admin import view_turfs
+from .admin import view_turfs
 
 from datetime import datetime
 

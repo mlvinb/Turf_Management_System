@@ -1,5 +1,5 @@
 # --------------------- Connections ---------------------
-from db import connect_db
+from .db import connect_db
 
 from datetime import datetime
 

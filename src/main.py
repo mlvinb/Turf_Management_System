@@ -1,6 +1,6 @@
 # --------------------- Connections ---------------------
-from admin import admin_login
-from user import user_login, user_signup
+from .admin import admin_login
+from .user import user_login, user_signup
 
 # --------------------- Main Menu ---------------------
 def main_menu():

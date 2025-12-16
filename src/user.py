@@ -1,7 +1,7 @@
 # --------------------- Connections ---------------------
-from db import connect_db
-from booking import book_turf, view_my_bookings
-from admin import view_turfs
+from .db import connect_db
+from .booking import book_turf, view_my_bookings
+from .admin import view_turfs
 
 
 # --------------------- User Functions ---------------------
