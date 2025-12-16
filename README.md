@@ -84,7 +84,7 @@ Turf-Management-System/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/turf-management-system.git
+git clone https://github.com/mlvinb/turf-management-system.git
 cd turf-management-system
 ```
 
