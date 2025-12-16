@@ -57,7 +57,7 @@ Specific objectives include:
 ## 📂 Project Structure
 
 ```
-Turf-Management-System/
+Turf_Management_System/
 ├── src/
 │   ├── __init__.py
 │   ├── main.py          # Entry point of the application
@@ -76,6 +76,21 @@ Turf-Management-System/
 └── LICENSE
 
 ```
+---
+
+## 🗄️ SQL & Database Design
+
+This project demonstrates practical use of SQL through:
+
+- Normalized relational schema (users, turf, booking, admin)
+- CRUD operations across all entities
+- Time-slot conflict detection to prevent double bookings
+- JOIN-based queries for user and admin views
+- Aggregate queries (COUNT, GROUP BY) for booking analysis
+- Foreign key constraints to ensure data integrity
+
+📁 Detailed SQL queries are available in `sql/queries.sql`.
+
 
 ---
 
@@ -84,8 +99,8 @@ Turf-Management-System/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/turf-management-system.git
-cd turf-management-system
+git clone https://github.com/mlvinb/turf_management_system.git
+cd turf_management_system
 ```
 
 2. Create the database
@@ -111,10 +126,10 @@ password="your_password"
 database="turf_management"
 ```
 
-5. Run the application
+5. Run the Application
 
 ```bash
-python main.py
+python -m src.main
 ```
 
 ---
