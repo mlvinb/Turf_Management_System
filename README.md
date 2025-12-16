@@ -76,6 +76,21 @@ Turf_Management_System/
 └── LICENSE
 
 ```
+---
+
+## 🗄️ SQL & Database Design
+
+This project demonstrates practical use of SQL through:
+
+- Normalized relational schema (users, turf, booking, admin)
+- CRUD operations across all entities
+- Time-slot conflict detection to prevent double bookings
+- JOIN-based queries for user and admin views
+- Aggregate queries (COUNT, GROUP BY) for booking analysis
+- Foreign key constraints to ensure data integrity
+
+📁 Detailed SQL queries are available in `sql/queries.sql`.
+
 
 ---
 
