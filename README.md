@@ -57,7 +57,7 @@ Specific objectives include:
 ## 📂 Project Structure
 
 ```
-Turf-Management-System/
+Turf_Management_System/
 ├── src/
 │   ├── __init__.py
 │   ├── main.py          # Entry point of the application
@@ -84,7 +84,7 @@ Turf-Management-System/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/mlvinb/turf-management-system.git
+git clone https://github.com/mlvinb/turf_management_system.git
 cd turf-management-system
 ```
 
@@ -111,10 +111,12 @@ password="your_password"
 database="turf_management"
 ```
 
-5. Run the application
+5. Run the Application
+
+From the project root directory:
 
 ```bash
-python main.py
+python -m src.main
 ```
 
 ---
