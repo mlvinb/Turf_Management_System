@@ -85,7 +85,7 @@ Turf_Management_System/
 
 ```bash
 git clone https://github.com/mlvinb/turf_management_system.git
-cd turf-management-system
+cd turf_management_system
 ```
 
 2. Create the database
@@ -112,8 +112,6 @@ database="turf_management"
 ```
 
 5. Run the Application
-
-From the project root directory:
 
 ```bash
 python -m src.main
